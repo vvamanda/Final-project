@@ -41,6 +41,8 @@ In template_dataset.py,
   
 `dataset`    This has our dataset rainy_to_clear(from BDD100k dataset). 
 
+you need to create a data folder with two subdirectories `trainA` and `trainB` that contain images from domain rainy and clear. Create two subdirectories' testA 'and' testB 'to contain the test set.
+
 `models`    This package contains modules related to objective functions, optimizations, and network architectures. 
 
 In template_model.py,  
